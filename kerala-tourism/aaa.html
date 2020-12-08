@@ -1,0 +1,29 @@
+div id="login-box" style="background: transparent; margin-top: 10%;">
+    <div class="left">
+      <form action="#" onsubmit="return ValidatePassword();">
+      <h1>Sign up</h1>
+      <br>
+      
+      <input type="text" name="username" placeholder="Username" required="">
+      
+      <input id="email" type="text" name="email" placeholder="Email/Phone no">
+      <div id="msg" style="font-size: 15px;  margin-top: -10px; margin-bottom: 10px;"> </div>
+      <input id="pass" type="password" name="password" placeholder="Password">
+      <div id="msg1" style="font-size: 15px;  margin-top: -10px; margin-bottom: 10px;"> </div>
+      <input id="pass" type="password" name="password2" placeholder="Retype password">
+      <div id="msg1" style="font-size: 15px;  margin-top: -10px; margin-bottom: 10px;"> </div>
+      
+      <input id="submit" type="submit" name="signup_submit" value="Sign me up" onclick="return ValidateEmailPhone(); ">
+    </form></div>
+    
+    <div class="right">
+      <span class="loginwith">Sign in with<br>social network</span>
+      
+      <button class="social-signin facebook">Log in with facebook</button>
+      <button class="social-signin twitter">Log in with Twitter</button>
+      <button class="social-signin google">Log in with Google+</button>
+    </div>
+  
+
+    <div class="or">OR</div>
+  </div>
