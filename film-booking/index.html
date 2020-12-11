@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmyshow</title>
+    <link rel="stylesheet" href="bookmyshow.css">
+  
+</head>
+<body background ="whitebg.jpg" >
+    <header>
+        <img src="bookmyshow.png" class="logo">
+    </header>
+    <hr>
+    <div >
+        <div class="tiles" >
+            <img src="catwomen.jpg" class="films" id="catwomen" />
+            <h3  class="movie_title">Catwomen</h3>
+            <h1 id="cat-booked" class="movie_booked"></h1>
+            <div class="timer"> 
+                Time Left :: <div class="timernum" id="ccounter">00:00</div>
+                
+            </div> 
+            <table class="input-table">
+           
+                <tr>
+                    <td>
+                        <label for="cname">  Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="cname" value="" placeholder="enter your name"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=""> E-mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="cmail" value="" required placeholder="enter your email-Id"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="number"> Time:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="ctime" value="" required placeholder="enter booking time in minutes"><br>
+                    </td>
+                </tr>
+                </table>
+                <button onclick="catWomen()" size="20px" class="book-film" class="inside-submit">Book Film</button>
+        </div>
+        <div class="tiles">
+            <img src="batman.jpg" class="films" title="aaaaa"id="batman"/>
+            <h3 id="batman" class="movie_title">Batman</h3>
+            <h1 id="bat-booked" class="movie_booked"></h1>
+            <div class="timer"> 
+                Time Left :: <div class="timernum" id="bcounter">00:00</div>
+                
+            </div> 
+            <table class="input-table">
+           
+                <tr>
+                    <td>
+                        <label for="bname"> Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="bname" value="" placeholder="enter your name"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=""> E-mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="bmail" value="" required placeholder="enter your email-Id"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="number"> Time:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="btime" value="" required placeholder="enter booking time in minutes"><br>
+                    </td>
+                </tr>
+                </table>
+                <button onclick="batMan()" size="20px" class="book-film" class="inside-submit">Book Film</button>
+        </div>
+        <div class="tiles">
+            <img src="daredevil.jpg" class="films" id="daredevil"/>
+            <h3 id="daredevil" class="movie_title">Daredevil</h3>
+            <h1 id="dar-booked" class="movie_booked"></h1>
+            <div class="timer"> 
+                Time Left :: <div class="timernum" id="dcounter">00:00</div>
+            </div> 
+            <table class="input-table">
+           
+                <tr>
+                    <td>
+                        <label for="dname"> Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="dname" value="" placeholder="enter your name"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dmail"> E-mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="dmail" value="" required placeholder="enter your email-Id"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="number"> Time:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="dtime" value="" required placeholder="enter booking time in minutes"><br>
+                    </td>
+                </tr>
+                </table>
+                <button onclick="dareDevil()" size="20px" class="book-film" class="inside-submit">Book Film</button>
+        </div>
+        <div class="tiles">
+            <img src="wolverine.jpg" class="films" id="wolverine" />
+            <h3 id="wolverine" class="movie_title">Wolverine</h3>
+            <h1 id="wol-booked" class="movie_booked"></h1>
+            <div class="timer"> 
+                Time Left :: <div class="timernum" id="wcounter">00:00</div>
+            </div> 
+            <table class="input-table">
+           
+                <tr>
+                    <td>
+                        <label for="wname"> Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="wname" value="" placeholder="enter your name"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for=""> E-mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="wmail" value="" required placeholder="enter your email-Id"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="number"> Time:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="wtime" value="" required placeholder="enter booking time in minutes"><br>
+                    </td>
+                </tr>
+                </table>
+                <button onclick="wolverine()" size="20px" class="book-film" class="inside-submit">Book Film</button>
+        </div>
+    </div>
+    
+    
+   
+</body>
+<script src="bookmyshow.js"></script>
+
+</html>
